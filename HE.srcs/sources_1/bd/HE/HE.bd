@@ -26,7 +26,7 @@
           "auto_pc": ""
         }
       },
-      "histogram_eq_top_0": ""
+      "hough_circle_top_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -931,12 +931,12 @@
           }
         }
       },
-      "histogram_eq_top_0": {
-        "vlnv": "xilinx.com:module_ref:histogram_eq_top:1.0",
-        "xci_name": "HE_histogram_eq_top_0_0",
+      "hough_circle_top_0": {
+        "vlnv": "xilinx.com:module_ref:hough_circle_top:1.0",
+        "xci_name": "HE_hough_circle_top_0_0",
         "reference_info": {
           "ref_type": "hdl",
-          "ref_name": "histogram_eq_top",
+          "ref_name": "hough_circle_top",
           "boundary_crc": "0x0"
         },
         "interface_ports": {
@@ -1106,10 +1106,10 @@
       }
     },
     "interface_nets": {
-      "histogram_eq_top_0_m_axis": {
+      "hough_circle_top_0_m_axis": {
         "interface_ports": [
           "axi_dma_0/S_AXIS_S2MM",
-          "histogram_eq_top_0/m_axis"
+          "hough_circle_top_0/m_axis"
         ]
       },
       "processing_system7_0_DDR": {
@@ -1145,7 +1145,7 @@
       "axi_dma_0_M_AXIS_MM2S": {
         "interface_ports": [
           "axi_dma_0/M_AXIS_MM2S",
-          "histogram_eq_top_0/s_axis"
+          "hough_circle_top_0/s_axis"
         ]
       },
       "processing_system7_0_FIXED_IO": {
@@ -1179,7 +1179,7 @@
           "axi_interconnect_1/M00_ACLK",
           "axi_interconnect_1/S00_ACLK",
           "axi_interconnect_1/ACLK",
-          "histogram_eq_top_0/clk"
+          "hough_circle_top_0/clk"
         ]
       },
       "rst_ps7_0_50M_peripheral_aresetn": {
@@ -1199,7 +1199,7 @@
         "ports": [
           "processing_system7_0/FCLK_RESET0_N",
           "rst_ps7_0_50M/ext_reset_in",
-          "histogram_eq_top_0/rst_n"
+          "hough_circle_top_0/rst_n"
         ]
       },
       "ARESETN_1": {

@@ -15,6 +15,9 @@
 vivado_*.backup.jou
 vivado_*.backup.log
 
+# Claude local config
+.claude/
+
 # OS files
 .DS_Store
 Thumbs.db

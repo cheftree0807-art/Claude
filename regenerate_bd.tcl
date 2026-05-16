@@ -10,7 +10,7 @@ open_bd_design "HE.srcs/sources_1/bd/HE/HE.bd"
 update_ip_catalog -rebuild
 
 # 更新模块
-update_module [get_bd_cells histogram_eq_top_0]
+update_module [get_bd_cells hough_circle_top_0]
 
 # 验证设计
 validate_bd_design
